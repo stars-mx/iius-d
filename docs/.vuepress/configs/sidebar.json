@@ -1,0 +1,92 @@
+{
+    "sidebar": [
+        {
+            "link": "/",
+            "text": "简介"
+        },
+        {
+            "children": [
+                {
+                    "link": "/browser/createScroll",
+                    "text": "createScroll"
+                },
+                {
+                    "link": "/browser/createTone",
+                    "text": "createTone"
+                },
+                {
+                    "link": "/browser/download",
+                    "text": "download"
+                },
+                {
+                    "link": "/browser/getIEVersion",
+                    "text": "getIEVersion"
+                }
+            ],
+            "collapsible": true,
+            "text": "Browser"
+        },
+        {
+            "children": [
+                {
+                    "link": "/common/copy",
+                    "text": "copy"
+                },
+                {
+                    "link": "/common/createCountDown",
+                    "text": "createCountDown"
+                },
+                {
+                    "link": "/common/createTime",
+                    "text": "createTime"
+                },
+                {
+                    "link": "/common/delay",
+                    "text": "delay"
+                },
+                {
+                    "link": "/common/formatNumber",
+                    "text": "formatNumber"
+                },
+                {
+                    "link": "/common/padZero",
+                    "text": "padZero"
+                },
+                {
+                    "link": "/common/toThousands",
+                    "text": "toThousands"
+                }
+            ],
+            "collapsible": true,
+            "text": "Common"
+        },
+        {
+            "children": [
+                {
+                    "link": "/image/compressImg",
+                    "text": "compressImg"
+                }
+            ],
+            "collapsible": true,
+            "text": "Image"
+        },
+        {
+            "children": [
+                {
+                    "link": "/is/isIEBrowser",
+                    "text": "isIEBrowser"
+                },
+                {
+                    "link": "/is/isMobile",
+                    "text": "isMobile"
+                },
+                {
+                    "link": "/is/isMobileByUa",
+                    "text": "isMobileByUa"
+                }
+            ],
+            "collapsible": true,
+            "text": "Is"
+        }
+    ]
+}
