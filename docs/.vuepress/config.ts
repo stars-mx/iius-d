@@ -4,6 +4,7 @@ import { defaultTheme, defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   title: 'IIUS',
   description: 'IIUS 介绍使用文档',
+  dest: 'dist',
   theme: defaultTheme({
       repo: 'iius-l/iius-s',
       logo: 'https://i.ibb.co/cLQHzdm/image.png',
