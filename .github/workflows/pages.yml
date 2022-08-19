@@ -27,14 +27,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: install, build
-        uses: actions/setup-node@v3
+        
+      - name: install & build
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
           cache: "pnpm"
           cache-dependency-path: "pnpm-lock.yaml"
       - run: pnpm install
       - run: pnpm build
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
