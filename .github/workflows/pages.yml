@@ -31,8 +31,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: pnpm install
-      - run: pnpm build
+          cache: "pnpm"
+      - run: npm install
+      - run: npm build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
