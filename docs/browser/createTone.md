@@ -21,9 +21,9 @@ function createTone<T extends string> (option: CreateToneOption<T>): ToneManager
 ### 参数
 
 1. CreateToneOption：创建色调数组选项
-   - key：为在 localStorage 中的 key 值
-   - tones：传入你所需要的色调数组
-   - onUpdate?：当更新色调的时候，会调用传入的函数（可选）
+   - `string` key：为在 localStorage 中的 key 值
+   - `string[]` tones：传入你所需要的色调数组
+   - `Function` onUpdate?：当更新色调的时候，会调用传入的函数（可选）
    
    ```typescript
    type CreateToneOption<U> = {
@@ -37,7 +37,7 @@ function createTone<T extends string> (option: CreateToneOption<T>): ToneManager
 
 ### 返回
 
-(ToneManager| false)： 色调管理器对象 or false
+`ToneManager` | `false`
 
 ```typescript
 type DefaultTone = 'Dark' | 'Light' | 'System'
@@ -51,9 +51,16 @@ type ToneManager<S extends string> = IsRecord<S> & IsRecord<DefaultTone> & {
     cancel: () => void
 }
 
-/**
- * @returns {ToneManager | false}
- */
+/*
+	getMode(): 获取当前色调的模式
+	setMode(): 设置色调模式
+	init(): 色调初始化。内部会判断如果是首次使用，进行一系列的初始化操作，并缓存在本地
+	cancel(): 取消监听系统的色调变化事件。如果色调模式为跟随系统变化时，会监听系统的色调变化
+	isLight(): 是否为亮色模式
+	isDart(): 是否为暗色模式
+	isSystem(): 是否为跟随系统模式
+	...
+*/
 ```
 
 

@@ -7,6 +7,14 @@
         {
             "children": [
                 {
+                    "link": "/browser/createCopy",
+                    "text": "createCopy"
+                },
+                {
+                    "link": "/browser/createDownload",
+                    "text": "createDownload"
+                },
+                {
                     "link": "/browser/createScroll",
                     "text": "createScroll"
                 },
@@ -15,8 +23,12 @@
                     "text": "createTone"
                 },
                 {
-                    "link": "/browser/download",
-                    "text": "download"
+                    "link": "/browser/dataURLToBlob",
+                    "text": "dataURLToBlob"
+                },
+                {
+                    "link": "/browser/dataURLToFile",
+                    "text": "dataURLToFile"
                 },
                 {
                     "link": "/browser/getIEVersion",
@@ -29,16 +41,20 @@
         {
             "children": [
                 {
-                    "link": "/common/copy",
-                    "text": "copy"
-                },
-                {
                     "link": "/common/createCountDown",
                     "text": "createCountDown"
                 },
                 {
+                    "link": "/common/createSize",
+                    "text": "createSize"
+                },
+                {
                     "link": "/common/createTime",
                     "text": "createTime"
+                },
+                {
+                    "link": "/common/createTimeLabel",
+                    "text": "createTimeLabel"
                 },
                 {
                     "link": "/common/delay",
@@ -63,15 +79,9 @@
         {
             "children": [
                 {
-                    "link": "/image/compressImg",
-                    "text": "compressImg"
-                }
-            ],
-            "collapsible": true,
-            "text": "Image"
-        },
-        {
-            "children": [
+                    "link": "/is/isEmail",
+                    "text": "isEmail"
+                },
                 {
                     "link": "/is/isIEBrowser",
                     "text": "isIEBrowser"
@@ -83,6 +93,22 @@
                 {
                     "link": "/is/isMobileByUa",
                     "text": "isMobileByUa"
+                },
+                {
+                    "link": "/is/isPNumber",
+                    "text": "isPNumber"
+                },
+                {
+                    "link": "/is/isSSR",
+                    "text": "isSSR"
+                },
+                {
+                    "link": "/is/isURL",
+                    "text": "isURL"
+                },
+                {
+                    "link": "/is/isWechat",
+                    "text": "isWechat"
                 }
             ],
             "collapsible": true,

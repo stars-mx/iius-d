@@ -22,6 +22,13 @@ function removeExtname (p) {
     return p.replace(path.extname(p), '')
 }
 
+function filterMdFile (filename) {
+    if (path.extname(filename) !== '.md') {
+        return ''
+    }
+    return filename
+}
+
 /**
  * 递归遍历文件夹, 返回文件的相对路径（相对于 dirPath）
  * @param {string} dirPath
@@ -38,7 +45,7 @@ function getMdFiles (dirPath = targetDir) {
             const nextPath = path.resolve(dirP, fp)
             const isDir = fs.statSync(nextPath).isDirectory()
 
-            return isDir ? getFiles(nextPath) : nextPath.replace(dirPath, '')
+            return isDir ? getFiles(nextPath) : filterMdFile(nextPath.replace(dirPath, ''))
         }).filter(Boolean)
     }
 
@@ -79,7 +86,7 @@ const fileMap = {
 const files = getMdFiles()
 
 const sidebar = files.map(f => {
-    if (isArray(f)) {
+    if (isArray(f) && f.length > 0) {
         return generateSidebar(f)
     }
 

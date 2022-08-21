@@ -1,5 +1,6 @@
 import SideBarConfig from './configs/sidebar.json'
 import { defaultTheme, defineUserConfig } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   title: 'IIUS',
@@ -13,5 +14,10 @@ export default defineUserConfig({
       docsDir: 'docs',
       sidebarDepth: 0,
       sidebar: SideBarConfig.sidebar
-  })
+  }),
+  plugins: [
+    searchPlugin({
+      hotKeys: []
+    })
+  ]
 })
