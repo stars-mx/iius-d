@@ -81,5 +81,5 @@ const cancel = createCutDown(+new Date(targetDate))
 
 ----
 
-- [source](https://github.com/iius-l/iius-s/blob/main/src/browser/createScroll.ts)
-- demo
+- [source](https://github.com/iius-l/iius-s/blob/main/src/common/createCountDown.ts)
+- [demo](https://codepen.io/lunoob/pen/jOzJBYd)

@@ -65,4 +65,3 @@ timeLabel.match(new Date())
 ----
 
 - [source](https://github.com/iius-l/iius-s/blob/main/src/common/createTimeLabel.ts)
-- demo

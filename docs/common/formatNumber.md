@@ -47,4 +47,4 @@ formatNumber(100000)
 
 ----
 
-- [source](https://github.com/iius-l/iius-s/blob/main/src/common/formatNumber)
+- [source](https://github.com/iius-l/iius-s/blob/main/src/common/formatNumber.ts)

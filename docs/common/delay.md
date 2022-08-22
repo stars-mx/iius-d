@@ -74,5 +74,4 @@ function fakeFetch() {
 
 ----
 
-- [source](https://github.com/iius-l/iius-s/blob/main/src/browser/createScroll.ts)
-- demo
+- [source](https://github.com/iius-l/iius-s/blob/main/src/common/delay.ts)

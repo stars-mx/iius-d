@@ -44,4 +44,3 @@ isMobile() // true
 ----
 
 - [source](https://github.com/iius-l/iius-s/blob/main/src/is/isMobile.ts)
-- demo

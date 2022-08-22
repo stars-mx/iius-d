@@ -51,5 +51,4 @@ downloadWithDataURL(dataURL)
 ----
 
 - [source](https://github.com/iius-l/iius-s/blob/main/src/browser/createDownload.ts)
-
 - [demo](https://codepen.io/lunoob/pen/WNzmoZv)
