@@ -97,7 +97,7 @@ createTone({
 ------
 
 - [Source](https://github.com/iius-l/iius-s/blob/main/src/browser/createTone.ts)
-- Demo
+- [Demo](https://codepen.io/lunoob/pen/YzagZqN)
 
 
 

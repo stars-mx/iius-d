@@ -26,13 +26,14 @@ function createDownload (fileName: string): DownloadObject
 
 ### 返回
 
-DownloadObject
+`DownloadObject`
 
 ```typescript
 export type DownloadObject = {
-    downloadWithFile: (file: File) => void
-    downloadWithBlob: (blob: Blob) => void
-    downloadWithDataURL: (dataURL: string) => void
+  	// 此处的 filename 将会覆盖 createDownload 传入的 filename
+    downloadWithFile: (file: File, filename: string) => void
+    downloadWithBlob: (blob: Blob, filename: string) => void
+    downloadWithDataURL: (dataURL: string, filename: string) => void
 }
 ```
 
@@ -42,6 +43,7 @@ export type DownloadObject = {
 
 ```typescript
 const dataURL = canvas.toDataURL('image/png')
+// 统一设置名字
 const { downloadWithDataURL } = createDownload('iius_avatar.png')
 downloadWithDataURL(dataURL)
 ```
@@ -50,4 +52,4 @@ downloadWithDataURL(dataURL)
 
 - [source](https://github.com/iius-l/iius-s/blob/main/src/browser/createDownload.ts)
 
-- demo
+- [demo](https://codepen.io/lunoob/pen/WNzmoZv)

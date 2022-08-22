@@ -46,3 +46,4 @@ dataURLToBlob(imageDataURL, 'image.png')
 ----
 
 - [source](https://github.com/iius-l/iius-s/blob/main/src/browser/dataURLToBlob.ts)
+- [demo](https://codepen.io/lunoob/pen/WNzmoZv)

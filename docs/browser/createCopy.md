@@ -60,3 +60,4 @@ copyer.exec(content)
 ----
 
 - [source](https://github.com/iius-l/iius-s/blob/main/src/browser/createCopy.ts)
+- [demo](https://codepen.io/lunoob/pen/jOzJVON)

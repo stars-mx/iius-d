@@ -70,4 +70,4 @@ scoller.scrollTo(1000, () => {
 ----
 
 - [source](https://github.com/iius-l/iius-s/blob/main/src/browser/createScroll.ts)
-- demo
+- [demo](https://codepen.io/lunoob/pen/vYRPgYq)
