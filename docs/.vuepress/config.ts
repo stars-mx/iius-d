@@ -19,5 +19,8 @@ export default defineUserConfig({
     searchPlugin({
       hotKeys: []
     })
+  ],
+  head: [
+    ['link', { rel: 'icon', href: 'https://i.ibb.co/cLQHzdm/image.png' }]
   ]
 })
