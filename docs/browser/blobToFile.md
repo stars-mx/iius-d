@@ -11,7 +11,7 @@ function blobToFile (theBlob: Blob, fileName: string): File
 
 ### 添加版本
 
-`0.0.22`
+`0.0.20`
 
 
 
