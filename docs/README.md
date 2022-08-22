@@ -41,7 +41,7 @@ import * as iius from 'iius'
 ### 浏览器
 
 ```html
-<script src="https://unpkg.com/iius@version/iius.min.js"></script>
+<script src="https://unpkg.com/iius@latest"></script>
 ```
 
 关于版本可以查看 [npmjs](https://www.npmjs.com/package/iius)，或者直接使用 [最新版](https://unpkg.com/iius@latest)
